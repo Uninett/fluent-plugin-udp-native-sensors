@@ -58,6 +58,5 @@ class ::Google::Protobuf::FieldOptions < ::Protobuf::Message
 end
 
 class ::EnterpriseSensors < ::Protobuf::Message
-  optional ::JuniperNetworksSensors, :".juniperNetworks", 2636, :extension => true
+   optional ::JuniperNetworksSensors, :".juniperNetworks", 2636, :extension => true
 end
-
